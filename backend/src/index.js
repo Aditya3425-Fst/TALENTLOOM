@@ -3,9 +3,11 @@ import { connectMongo } from './db/mongo.js';
 import { config } from './config/env.js';
 import app from './app.js';
 import { setupSocketIO } from './sockets/index.js';
-
+import path from 'path';
 const server = http.createServer(app);
 const io = setupSocketIO(server);
+
+
 
 // Make io available to routes via app.locals
 app.locals.io = io;

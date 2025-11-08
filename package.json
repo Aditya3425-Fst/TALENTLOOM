@@ -1,0 +1,14 @@
+{
+  "name": "talentloom",
+  "version": "1.0.0",
+  "description": "A real-time discussion forum microservice built with React, Node.js, Express, MongoDB, and Socket.IO. This application enables users to create posts, add replies, upvote content, and see updates in real-time.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start":" npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
